@@ -13,6 +13,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 /**
  * The purpose of this class is to read and merge financial transactions, and print a summary:
  * - total amount 
@@ -22,10 +25,17 @@ import java.util.Locale;
  */
 public class MergeTransactions {
 
+	// FILE日志器：负责文件访问相关日志，输出到控制台，logs.txt文件
+	private static final Logger FILE_LOGGER = Logger.getLogger("FILE");
+	// TRANSACTIONS日志器：负责交易数据打印，仅输出到控制台
+	private static final Logger TRANSACTIONS_LOGGER = Logger.getLogger("TRANSACTIONS");
+
 	private static DateFormat DATE_FORMAT = new SimpleDateFormat("dd-MM-yyyy");
 	private static NumberFormat CURRENCY_FORMAT = NumberFormat.getCurrencyInstance(Locale.getDefault());
 
 	public static void main(String[] args) {
+		PropertyConfigurator.configure("src/main/resources/log4j.properties");
+
 		List<Purchase> transactions = new ArrayList<Purchase>();
 		
 		// read data from 4 files
@@ -35,9 +45,9 @@ public class MergeTransactions {
 		readData("transactions4.csv",transactions);
 		
 		// print some info for the user
-		System.out.println("" + transactions.size() + " transactions imported");
-		System.out.println("total value: " + CURRENCY_FORMAT.format(computeTotalValue(transactions)));
-		System.out.println("max value: " + CURRENCY_FORMAT.format(computeMaxValue(transactions)));
+		TRANSACTIONS_LOGGER.info("" + transactions.size() + " transactions imported");
+		TRANSACTIONS_LOGGER.info("total value: " + CURRENCY_FORMAT.format(computeTotalValue(transactions)));
+		TRANSACTIONS_LOGGER.info("max value: " + CURRENCY_FORMAT.format(computeMaxValue(transactions)));
 
 	}
 	
@@ -63,7 +73,7 @@ public class MergeTransactions {
 		File file = new File(fileName);
 		String line = null;
 		// print info for user
-		System.out.println("import data from " + fileName);
+		FILE_LOGGER.info("import data from " + fileName);
 		BufferedReader reader = null;
 		try {
 			reader = new BufferedReader(new FileReader(file));
@@ -76,34 +86,34 @@ public class MergeTransactions {
 				);
 				transactions.add(purchase);
 				// this is for debugging only
-				System.out.println("imported transaction " + purchase);
+				FILE_LOGGER.debug("imported transaction " + purchase);
 			} 
 		}
 		catch (FileNotFoundException x) {
 			// print warning
 			x.printStackTrace();
-			System.err.println("file " + fileName + " does not exist - skip");
+			FILE_LOGGER.warn("file " + fileName + " does not exist - skip");
 		}
 		catch (IOException x) {
 			// print error message and details
 			x.printStackTrace();
-			System.err.println("problem reading file " + fileName);
+			FILE_LOGGER.error("problem reading file " + fileName);
 		}
 		// happens if date parsing fails
 		catch (ParseException x) { 
 			// print error message and details
 			x.printStackTrace();
-			System.err.println("cannot parse date from string - please check whether syntax is correct: " + line);	
+			FILE_LOGGER.error("cannot parse date from string - please check whether syntax is correct: " + line);
 		}
 		// happens if double parsing fails
 		catch (NumberFormatException x) {
 			// print error message and details
-			System.err.println("cannot parse double from string - please check whether syntax is correct: " + line);	
+			FILE_LOGGER.error("cannot parse double from string - please check whether syntax is correct: " + line);
 		}
 		catch (Exception x) {
 			// any other exception 
 			// print error message and details
-			System.err.println("exception reading data from file " + fileName + ", line: " + line);	
+			FILE_LOGGER.error("exception reading data from file " + fileName + ", line: " + line);
 		}
 		finally {
 			try {
@@ -112,7 +122,7 @@ public class MergeTransactions {
 				}
 			} catch (IOException e) {
 				// print error message and details
-				System.err.println("cannot close reader used to access " + fileName);
+				FILE_LOGGER.error("cannot close reader used to access " + fileName);
 			}
 		}
 	}

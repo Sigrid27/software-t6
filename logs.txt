@@ -1,0 +1,147 @@
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+INFO - import data from transactions2.csv
+INFO - import data from transactions3.csv
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
+INFO - import data from transactions1.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=188.0, date=Sun Jun 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Harvey Norman, amount=20.0, date=Tue Jun 12 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=BP, amount=90.0, date=Fri Jun 15 00:00:00 CST 2018]
+INFO - import data from transactions2.csv
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=230.0, date=Tue May 01 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Briscoes, amount=10.0, date=Thu May 03 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Warehouse, amount=20.0, date=Fri May 04 00:00:00 CST 2018]
+DEBUG - imported transaction Purchase [retailer=Pack and Save, amount=240.0, date=Sun May 06 00:00:00 CST 2018]
+INFO - import data from transactions3.csv
+DEBUG - imported transaction Purchase [retailer=Wet Pets, amount=42.0, date=Sun May 13 00:00:00 CST 2018]
+ERROR - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2018
+INFO - import data from transactions4.csv
+WARN - file transactions4.csv does not exist - skip
